@@ -1,3 +1,5 @@
+// TODO - Fix CORS to use adamsandlerAPI
+// https://github.com/PauloMarceloNogueira/AdamSandlersAPI
 const pics = [
   'https://c8.alamy.com/comp/GEG6JX/comedian-adam-sandler-in-the-mid-1980s-marzullomediapunch-GEG6JX.jpg',
   'https://i.ytimg.com/vi/zXZPITOZ7TY/hqdefault.jpg',
@@ -34,7 +36,6 @@ setInterval(() => {
   const images = document.getElementsByTagName('img');
   const arrImages = Array.prototype.slice.call(images);
   for (let index = 0; index < arrImages.length; index++) {
-    console.log(arrImages[index].getAttribute('changed'));
     if (!arrImages[index].getAttribute('changed')) {
       arrImages[index].src = pics[Math.floor(Math.random() * 29)];
       arrImages[index].setAttribute('changed', true);
