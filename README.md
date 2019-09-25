@@ -1,7 +1,6 @@
-### ADAMSANDLERIZED
+## ADAMSANDLERIZED
 
-<iframe src="https://giphy.com/embed/UqRokjXyXNWseJHI1m" width="480" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/github-adamsandler-UqRokjXyXNWseJHI1m">via GIPHY</a></p>
-
+<img src="https://media.giphy.com/media/UqRokjXyXNWseJHI1m/giphy.gif" width="700" height="500">
 ## Usage
 
 - Clone repository
